@@ -114,39 +114,6 @@ function draw() {
   manejarMenu();
 
   //-----------------------------------------------------------------
-  //coisas aleatórias que quero guardar
-  // if (keyDown("left")) {
-  //   if (estadomenu === "item") {
-  //     marcador.y = 200;
-  //     setTimeout(function () {
-  //       estado = 2;
-  //     }, 200);
-  //   }
-  //   if (estado === 2) {
-  //     marcador.y = 100;
-  //     setTimeout(function () {
-  //       estado = 1;
-  //     }, 200);
-  //   }
-  // }
-  // if (keyWentDown("right") && estadomenu === "fight") {
-  //   huej.x = 119;
-  //   huej.y = 379;
-  //   estadomenu = "act";
-  // }
-  // if (keyWentDown("right") && estadomenu === "act") {
-  //   huej.x = 119;
-  //   huej.y = 379;
-  // }
-  // if (keyWentDown("LEFT") && estadomenu === "act") {
-  //   estadomenu = "fight";
-  //   huej.x = 18;
-  //   huej.y = 380;
-  // }
-
-  //sprite.destroy();
-
-  //-----------------------------------------------------------------
   //movimentos do huej no estadojojo 'batalaal';
   huej.setVelocity(0, 0);
   if (estadojojo === "batalaal") {
